@@ -1,0 +1,143 @@
+/* import font */
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Courgette&family=DM+Serif+Display&family=Domine:wght@500&family=Gelasio&family=Noto+Serif&family=Satisfy&display=swap');
+
+/* import css variables */
+@import url(./partials/_variables.css);
+@import url(./partials/_globle.css);
+
+/* start navigation */
+.main-menu {
+  height: 70px;
+}
+
+.header_area {
+  background-color: rgb(43, 42, 42);
+}
+
+.header_area .main-menu .navbar .navbar-brand{
+  padding: 0 2rem 0 5rem;
+}
+
+.header_area .main-menu .navbar{
+  padding: 1rem 20rem;
+}
+
+.header_area .main-menu .nav-item .nav-link{
+  font:normal 500 15px/2px var(--Abril);
+  text-transform: uppercase;
+  padding: 1.7rem;
+  color: var(--title-color);
+}
+
+.header_area .main-menu .navbar-nav .active a{
+ background: var(--gradient-color);
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+ background-clip: text;
+}
+
+.header_area .main-menu .navbar-nav .active a:hover{
+  background: var(--gradient-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+
+ }
+
+/* end navigation */
+
+/* banner */
+.site-main .site-banner {
+  width: 100%;
+  height: 600px;
+  background: url("../image/back3.png") no-repeat 2% 2%;
+}
+.container {
+  margin-right: 0px;
+  padding: 60px;
+}
+
+.site-title {
+  margin-top: 160px;
+  padding-left: 100px;
+  font:normal 500 15px/2px var(--Serif);
+}
+
+/* services */
+.site-main .services-area {
+  width: 100%;
+  height: 600px;
+  background: url("../image/background/background1.png") no-repeat 2% 2%;
+}
+
+.services-list {
+ margin-right: auto;
+ margin-left: auto;
+}
+
+.services-img {
+  padding: 5px;
+}
+
+.services-img img {
+  width: 150px;
+  height: 150px;
+}
+
+.servies-small {
+  background-color: white;
+}
+
+.services-container h1 {
+  font:normal 700 50px var(--Serif);
+}
+
+
+/* project */
+.site-main .project-area {
+  padding: 4rem 0;
+  width: 100%;
+  height: 1000px;
+  background: url("../image/background/background2.png") no-repeat 2% 2%;
+}
+
+.project-container {
+  margin-right: 0px;
+  padding: 60px;
+}
+
+.project-container h1 {
+  font:normal 700 50px var(--Serif);
+}
+
+.element-item {
+  /* margin-left: 10px; */
+}
+
+.element-item img{
+  /* background-color: white; */
+  /* width: 100%; */
+  height: 250px;
+}
+
+.button-group {
+ display: flex;
+ justify-content: center;
+}
+
+.button-group button {
+ margin: 5px 5px;
+ border: none;
+ background-color: rgb(43, 42, 42);
+ color: white;
+}
+
+.project-row {
+ margin-top: 20px;
+ /* display: flex;
+ justify-content: center; */
+}
+
+.text-uppercase {
+  font:normal 300 20px var(--Serif);
+}
